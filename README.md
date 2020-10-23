@@ -1,5 +1,14 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+### To deploy code to github url
+```npm run deploy```
+This will update the __gh-pages__ branch with build code so the url has the latest code.
+
+For good practice, also keep pushing the code to github.
+
+
+
+
 ## Available Scripts
 
 In the project directory, you can run:
