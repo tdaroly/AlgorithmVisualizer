@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Topbar from './components/Topbar/Topbar';
 
 function App() {
   return (
@@ -16,8 +17,9 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learning React!
+          Learn React!
         </a>
+        <Topbar/>
       </header>
     </div>
   );
