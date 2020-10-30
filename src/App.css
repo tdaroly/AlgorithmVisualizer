@@ -1,0 +1,26 @@
+.top{
+    position: fixed;
+    left: 0;
+    right: 0;
+    height: 30%;
+}
+	.bottom {
+		position: fixed;
+		left: 0;
+		right: 0;
+		height: 70%;
+	}
+	
+	.top {
+		top: 0;
+		background-color: rgb(122, 236, 217);
+	}
+	
+	.bottom {
+		bottom: 0;
+		background-color: rgb(250, 250, 250);
+    }
+    
+.title-text { 
+    text-align: center;
+}

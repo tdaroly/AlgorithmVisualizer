@@ -1,10 +1,16 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Topbar from './components/Topbar/Topbar';
+import Bottom from './components/Bottom/Bottom';
+
 
 function App() {
   return (
+    <div>
     <Topbar/>
+    <Bottom/>
+    </div>
+
     // <div className="App">
     //   <header className="App-header">
     //     <img src={logo} className="App-logo" alt="logo" />
