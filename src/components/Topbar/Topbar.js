@@ -17,10 +17,10 @@ class Bottom extends Component {
 
         return (
             <div className="top">
-                <Container fluid>
+                <Container fluid={true}>
                     <h1 className='title-text'>
                         SORTING VISUALIZER</h1>
-                    <Row >
+                    <Row className = "text-center">
                         <Col >
                             <Dropdown>
                                 <Dropdown.Toggle variant="secondary" id="dropdown-basic">
